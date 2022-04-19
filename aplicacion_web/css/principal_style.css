@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    top: 0;
+    
+}
+
+/*estilizamos el encabezado*/
+header{
+    
+    width: 100%;
+    height: 70vh;
+    background-image: url(galeria/fondo_login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+}
+.container_head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+header .logo_principal{
+    width: 60px;
+    margin-right:20px;
+    margin-left: 10px;
+}
+
+header .container_left{
+    display: flex;
+    align-items: center;
+}
+
+header .container_rigth{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.container_rigth nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+.container_rigth nav a{
+    color:black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.container_rigth nav ul li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    font-weight: 600;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.container_rigth  nav li:hover{
+    color: white;
+}
+header section{
+    position: absolute;
+    width: 100%;
+    height:88%;
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section h1{
+    display: inline-block;
+    font-size: 50px;
+    color:#fff;
+}
+
+section h3{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+/*estilizamos el cuerpo*/
+/*darle fondo y estilo a inicio*/
+main .section_main_1{
+    position: relative;
+}
+.backgorund_inicio{
+    background-image: url(galeria/fondo_login.jpg);
+}
+.inicio_section{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    margin-top: 1.75rem !important;
+}

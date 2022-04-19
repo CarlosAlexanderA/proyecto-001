@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* adjust typography defaults */
+.body {
+margin: 0rem;
+margin-top: 0rem;
+}
+.navbar_user{
+  position: relative;
+  background: rgb(2, 126, 247);
+  background: linear-gradient(  0deg,rgba(2, 126, 247, 0.5186449579831933) 3%,rgba(45, 238, 253, 0.7679446778711485) 95%);
+}
+.cover {
+  position: relative;
+  height: 100px;
+  color: black;
+}
+.list-group-item-action {
+  width: 50%;
+  color: #495057;
+  text-align: auto;
+}
+
+.btn {
+  position: fixed;
+  display:flex;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.5rem);
+  margin-right: 20px;
+  margin-left: 0px;
+}
+.list-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+  margin-right: 50px;
+  width: 50%;
+  margin-right: -150px;
+}
+  
